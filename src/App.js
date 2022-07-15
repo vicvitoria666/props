@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import About from "./components/About"
 import { createGlobalStyle } from "styled-components";
 import styled from "styled-components";
 
@@ -28,6 +28,8 @@ class App extends Component {
       <Container>
         <GlobalStyle />
         <Title>Olá</Title>
+        <About nome="Vitória" idade={20} tecnologia="Swift"/>
+
       </Container>
     );
   }
